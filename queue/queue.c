@@ -105,7 +105,7 @@ int info(queue* q)
 
 int is_full(queue* q)
 {
-	return q->count > 0;
+	return q->count == q->size;
 }
 int is_empty(queue* q)
 {
